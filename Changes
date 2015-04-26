@@ -1,6 +1,6 @@
 2015-04-26  Kingpin  <Martin@EV-9D9>
 
-	* dist.ini: new file, start using Dist::Zilla
+	* dist.ini: new file, converted authoring environment to Dist::Zilla
 
 2014-10-15  Kingpin  <Martin@EV-9D9>
 
