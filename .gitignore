@@ -2,9 +2,11 @@
 inc
 
 # Files that are auto-created during build/test/install:
-Makefile
-*META*
+*blib
 Devel-*
+Makefile
+MANIFEST
+*META*
 
 # Windows files:
 Thumbs.db
