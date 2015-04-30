@@ -41,7 +41,7 @@ use Data::Dumper;
 use File::Find;
 
 our
-$VERSION = do { my @r = (q$Revision: 1.14 $ =~ /\d+/g); sprintf "%d."."%03d" x $#r, @r };
+$VERSION = 1.202;
 
 =head2 Constructor
 

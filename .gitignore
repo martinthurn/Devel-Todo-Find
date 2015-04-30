@@ -4,15 +4,11 @@ inc
 # Files that are auto-created during build/test/install:
 Makefile
 *META*
-
-# Module build files:
 Devel-*
 
-# Windows image file caches
+# Windows files:
 Thumbs.db
 ehthumbs.db
-
-# Folder config file
 Desktop.ini
 
 # Recycle Bin used on file shares
