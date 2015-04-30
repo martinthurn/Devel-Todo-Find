@@ -1,3 +1,10 @@
+# Module::Install files:
+inc
+
+# Files that are auto-created during build/test/install:
+Makefile
+*META*
+
 # Module build files:
 Devel-*
 
