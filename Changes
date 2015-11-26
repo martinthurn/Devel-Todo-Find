@@ -1,3 +1,7 @@
+2015-09-23  Kingpin  <Martin@EV-9D9>
+
+	* lib/Devel/Todo/Find.pm (_gather_todos): ignore .git, .subversion, *.tar
+
 2015-04-29  Kingpin  <Martin@EV-9D9>
 
 	* MANIFEST.SKIP: reverted authoring environment to Module::Install

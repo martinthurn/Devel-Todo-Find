@@ -30,7 +30,9 @@ and
 by default, it skips
 folders in a Perl module development environment that a module author
 typically wants to skip (such as CVS and blib),
-as well as Emacs backup files (that end with tilde).
+as well as Emacs backup files (that end with tilde),
+CM hidden folders (.git and .subversion), and
+tar files (.tar).
 Then you can get the list of TODO items by calling the todos method.
 
 =head1 FUNCTIONS
@@ -104,11 +106,14 @@ searched during the todos() process.
 If you do not call this method to ignore any items,
 by default the following items will be ignored:
 
-  qr{blib}
-  qr{CVS}i
-  qr{\Ainc/}
-  qr{\.yaml\Z}i
-  qr{~\Z}i
+ qr{~\Z}i
+ qr{blib}
+ qr{CVS}i
+ qr{\A\.git\Z}i,
+ qr{\Ainc/}
+ qr{\.subversion}i,
+ qr{\.tar\Z}i,
+ qr{\.yaml\Z}i
 
 =cut
 
@@ -181,6 +186,9 @@ sub _gather_todos
                qr{CVS}i,
                qr{\Ainc/},
                qr{\.yaml\Z}i,
+               qr{\A\.git\Z}i,
+               qr{\.subversion}i,
+               qr{\.tar\Z}i,
                qr{~\Z}i,
               );
     } # if
