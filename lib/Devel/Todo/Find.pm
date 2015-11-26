@@ -43,7 +43,7 @@ use Data::Dumper;
 use File::Find;
 
 our
-$VERSION = 1.203;
+$VERSION = 1.204;
 
 =head2 Constructor
 
