@@ -11,6 +11,7 @@ diff$
 ^MANIFEST\.
 ^Makefile$
 .md
+MYMETA
 \.old$
 \bOld\b
 \.orig$
