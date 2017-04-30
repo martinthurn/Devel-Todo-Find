@@ -1,5 +1,6 @@
 # This -*- cperl -*- program writes a Makefile
-# $Id: Makefile.PL,v 1.5 2014-10-15 11:04:37 Martin Exp $
+
+use lib '.';
 
 use inc::Module::Install;
 
